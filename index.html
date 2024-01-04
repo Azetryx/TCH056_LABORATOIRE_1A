@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./STYLE/style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Page personnelle de Toussaint Twacy Chaïna</title>
+    </head>
+    <body>
+        <!-- Placer un ancrage vide de référence -->
+        <a id="debut-page"></a>
+
+        <!--Nom-->
+        <a href="https://www.linkedin.com/in/cha%C3%AFna-twacy-toussaint-621076236/" target="_BLANK"><img src="https://picsum.photos/200" alt="Photo de profil"></a>
+        <h1><strong>Chaïna Twacy Toussaint</strong></h1>
+        <p>Étudiante au cheminement général à l'École de technologie supérieure.</p>
+
+        <!--Horaire-->
+        <h2>Horaire pour la session Hiver 2024</h2>
+        <table>
+            <caption>Grille horaire</caption>
+
+            <tr>
+                <td>-</td>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+
+            <tr>
+                <th>AM</th>
+                <td>TCH055</td>
+                <td>INF111</td>
+                <td>TCH057</td>
+                <td rowspan="2">TCH056</td>
+                <td rowspan="2">TCH056</td>
+            </tr>
+
+            <tr>
+                <th>PM</th>
+                <td>TCH057</td>
+                <td>TCH055</td>
+                <td>INF111</td>
+            </tr>
+
+            <tr>
+                <th>Soir</th>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+        </table>
+
+        <!--Intérêts-->
+        <h2>Intérêts</h2>
+        <ul>
+            <li>Pédagogie des sciences informatiques</li>
+            <li>Algorithmes</li>
+            <ul>
+                <li>Métaheuristiques</li>
+                <li>Apprentissage machine</li>
+            </ul>
+        </ul>
+
+        <!--Contact-->
+        <h2>Contact</h2>
+        <ol>
+        <li><p><em><strong>Courriel : </strong></em><a href="mailto:twacy-chaina.toussaint.1@ens.etsmtl.ca">twacy-chaina.toussaint.1@ens.etsmtl.ca</a></p></li>
+        <li><p><em><strong>Github : </strong></em><a href="https://github.com/Azetryx" target="_BLANK">https://github.com/Azetryx</a></p></li>
+        </ol>
+        <hr>
+
+        <!--Écrivez-moi-->
+        <h2>Écrivez-moi</h2>
+        <form>
+            <label for="Prénom">Prénom</label><br>
+            <input name="Prénom"
+                   type="text"
+                   placeholder="Entrez une prénom"
+                   required><br>
+            
+            <br><label for="Nom">Nom</label><br>
+            <input name="Nom"
+                   type="text"
+                   placeholder="Entrez votre nom"
+                   required><br>
+            
+            <br><label for="Message">Message</label><br>
+            <textarea id="Message" 
+                      name="Message" 
+                      rows="10"
+                      required>
+            </textarea><br>
+            
+            <button type="submit">Soumettre</button><br>
+            <button type="reset">Effacer</button>
+
+        </form><br>
+
+        <a href="#debut-page">Retour au début</a>
+    </body>
+</html>
