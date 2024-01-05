@@ -3,3 +3,63 @@ table, tr, th, td{
     border-collapse: collapse;
     padding: 5px;
 }
+
+#pdp {
+    border : 2px dashed hotpink;
+    opacity: 90%;
+}
+
+#pdp:hover {
+    transition: all 2s;
+    transform: scale(1.1);
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #c97ec9;
+}
+
+.tabulation {
+    margin-left: 5%;
+}
+
+#couleur-fond {
+    background-color: white;
+}
+
+.couleur-fond:hover {
+    background-color: #D3D3D3;
+}
+
+#titre-tableau {
+    text-transform: uppercase;
+}
+
+.lien:hover {
+    font-weight: bold;
+}
+
+.italique {
+    font-style: italic;
+}
+
+label, input, textarea, button {
+    margin-trim: 5px;
+    display:block;
+}
+
+.saisie {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 80%;
+    width: 50%;
+}
+
+.bouton {
+    width: 100px;
+}
+
+#nom {
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
